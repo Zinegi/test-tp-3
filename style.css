@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+/* Variables - Propriétés personnalisées */
+:root {
+  --couleur-principale: #000000;
+  --couleur-dark: #171d1c;
+  --couleur-light: #ffffff;
+  --couleur-text: #bfe7df;
+}
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--couleur-principale);
+  background-image: url("photo/PC.jpg");
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 70px 1fr 50px;
+  width: 100vw;
+  height: 100vh;
+}
