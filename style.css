@@ -16,6 +16,7 @@ body {
   padding: 0;
   background-color: var(--couleur-principale);
   background-image: url("photo/PC.jpg");
+  background-size: cover;
 }
 
 #container {
